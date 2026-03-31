@@ -1,0 +1,25 @@
+# Flutter
+.dart_tool/
+.packages
+.pub/
+build/
+flutter-app/build/
+
+# Yocto build artifacts
+*.pyc
+__pycache__/
+tmp/
+sstate-cache/
+downloads/
+buildhistory/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

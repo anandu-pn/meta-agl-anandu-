@@ -1,0 +1,27 @@
+# Flutter
+flutter-app/.dart_tool/
+flutter-app/.packages
+flutter-app/.pub/
+flutter-app/build/
+flutter-app/.flutter-plugins
+flutter-app/.flutter-plugins-dependencies
+flutter-app/pubspec.lock
+
+# Yocto build artifacts
+*.pyc
+__pycache__/
+tmp/
+sstate-cache/
+downloads/
+buildhistory/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

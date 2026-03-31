@@ -1,0 +1,29 @@
+name: agl_quiz_app
+description: >
+  AGL GSoC 2026 Quiz App — Displays AGL version from /etc/os-release, 
+  developer name, and provides buttons to show a picture and play a sound.
+  Built with Flutter for Automotive Grade Linux.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/sounds/
